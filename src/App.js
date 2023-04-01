@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
 import Carousel from './components/carousel';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
 
       <React.Fragment>
         <Carousel />
+      </React.Fragment>
+
+      <React.Fragment>
+        <Footer />
       </React.Fragment>
 
     </div>

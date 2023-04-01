@@ -25,6 +25,19 @@ body {
   background-color: var(--mainHoverColorLight);
 }
 
+/* SCROLLBAR */
+::-webkit-scrollbar {
+  width: 3px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--secondaryHoverColor);
+  border-radius: 16px;
+}
+
 /* NAVBAR */
 
 header {
@@ -147,21 +160,162 @@ header .nav-btn{
   border-color: #333;
 }
 
+/* cards */
+.carousel-content{
+  max-width: 900px;
+  margin: 1.5em 1em 0 1em;
+  display: grid;
+  gap: .5em;
+}
+
+.carousel-header{
+  color: var(--mainColorLight);
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-header h3 {
+  color: var(--mainColor);
+}
+
+.carousel-links{
+  color: var(--mainColorLight);
+  text-decoration: none;
+}
+.carousel-card {
+  display: grid;
+  /* justify-content: center; */
+  grid-auto-flow: column;
+  scroll-behavior: auto;
+  gap: .7em;
+  overflow-y: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+.film-bg{
+  width: 10em;
+  height: 10.2em;
+  border-radius: 8px;
+
+  background-color: var(--mainColorLight);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+/* Modais */
+/* reset */
+button,
+fieldset,
+input {
+  all: unset;
+}
+
+.DialogOverlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(3px);
+    position: fixed;
+    inset: 0;
+    animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.DialogContent {
+  background-color: #F6F6F7;
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 450px;
+  /* max-height: 85vh; */
+  padding: 25px;
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.DialogContent:focus {
+  outline: none;
+}
+
+.DialogTitle {
+  margin: 0 0 .5em 0;
+
+  color: #012442;
+
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.DialogDescription {
+  margin: 10px 0 20px;
+  color: #666666;
+
+  font-size: 15px;
+  font-weight: 600;
+
+  line-height: 1.5;
+}
+
+.FooterBtn  a{
+    text-decoration: none;
+}
+
+.Button {
+    width: 7.5em;
+    background-color: #012442 ;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 1.5em;
+    padding: .7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 9.5pt;
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    opacity: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
 /* footer */
 .container-footer {
-  background-color: #3a4f6a;
+  background-color: var(--mainColor);
 }
 footer {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
+  gap: 25px;
   margin: 0 30px;
   color: #a2b5cd;
 }
 
 footer.top {
-  border-bottom: 2px solid #222831;
-  padding-bottom: 20px;
+  border-bottom: 2px solid var(--mainHoverColorLight);
+  padding-bottom: 5px;
   margin-top: 20px;
   padding-top: 20px;
 }

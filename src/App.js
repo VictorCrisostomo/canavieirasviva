@@ -3,6 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Carousel from './components/carousel';
 import Footer from './components/Footer';
+import Card from './components/CardsEmpresas';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
 
       <React.Fragment>
         <Carousel />
+      </React.Fragment>
+
+      <React.Fragment>
+        <Card />
       </React.Fragment>
 
       <React.Fragment>

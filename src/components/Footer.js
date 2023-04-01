@@ -4,28 +4,21 @@ const Footer = () => {
   return (
     <div className='container-footer'>
     <footer className="top">
-        <img src="https://logodownload.org/wp-content/uploads/2013/12/apple-logo-1-2.png" width={70} alt="" />
+        <img src="https://logodownload.org/wp-content/uploads/2013/12/apple-logo-1-2.png" width={60} alt="" />
         <div className="links">
             <div>
                 <h2>Canavieiras</h2>
-                <a href="www.google.com">Canes</a>
-                <a href="www.google.com">Canes</a>
-                <a href="www.google.com">Canes</a>
-            </div>
-            <div>
-                <h2>Viva</h2>
-                <a href="www.google.com">Viva</a>
-                <a href="www.google.com">Viva</a>
-                <a href="www.google.com">Viva</a>
+                <a href="www.google.com">Sobre</a>
+                <a href="www.google.com">Pontos Turisticos</a>
+                <a href="www.google.com">Gastronomia</a>
+                <a href="www.google.com">Empresas Parceiras</a>
             </div>
         </div>
     </footer>
     <footer className="botton">
         <div className="legal">
             <span>@ 2023 All rights reserved</span>
-            <a href="www.google.com">License</a>
-            <a href="www.google.com">terms</a>
-            <a href="www.google.com">politica</a>
+            <a href="www.google.com">Developed by Victor Crisóstomo</a>
         </div>
     </footer>
     </div>

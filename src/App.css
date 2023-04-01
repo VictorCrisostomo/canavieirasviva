@@ -89,6 +89,7 @@ header .nav-btn{
   width: 100%;
   height: 400px;
   overflow: hidden;
+  margin-bottom: 20px;
 }
 
 .carousel-container {
@@ -159,8 +160,83 @@ header .nav-btn{
 .carousel-thumbnails img.active {
   border-color: #333;
 }
+/* end caroussel */
 
-/* cards */
+/* Cards */
+
+/* root */
+.Container a {
+  text-decoration: none;
+}
+
+.TextCard {
+  color: #666666;
+  text-align: left;
+  font-size: 11pt;
+  word-break: normal;
+}
+
+.Container {
+  /* border: #AD0808 1px solid; */
+  margin: 0 1.5em 0 1.5em;
+}
+
+.Cards {
+  width: 100%;
+  background-color: #F6F6F7;
+
+  border-radius: .8em;
+  box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+  margin-bottom: 1.5em;
+  padding: 1em;
+}
+
+.TopTitleCard {
+  /* border: #730504 1px solid; */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  padding-bottom: 1em;
+}
+
+.imgToptitleCard{
+  /* margin-top: 1em; */
+  /* margin-left: 1.5em; */
+  padding-right: 1em;
+}
+
+.textToptitleCard {
+  color: #730504;
+  text-align: left;
+}
+
+.ContentCard {
+  /* border: #730504 1px solid; */
+  margin-top: 1.5em;
+}
+
+.imgContent {
+  margin-top: 1em;
+  padding: 0 2em 0 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.TextContent {
+
+  font-size: 10pt;
+  text-align: justify;
+
+  color: #666666;
+
+  word-break: normal;
+}
+/* end cards */
+
+/* cards empresas */
 .carousel-content{
   max-width: 900px;
   margin: 1.5em 1em 0 1em;
@@ -204,7 +280,7 @@ header .nav-btn{
   flex-direction: column;
   justify-content: space-around;
 }
-
+/* end card empresas */
 
 
 /* Modais */
@@ -300,6 +376,7 @@ input {
     transform: translate(-50%, -50%) scale(1);
   }
 }
+/* end modais */
 
 /* footer */
 .container-footer {
@@ -457,3 +534,4 @@ footer.botton .links > a {
     margin-bottom: 2px;
   }
 }
+

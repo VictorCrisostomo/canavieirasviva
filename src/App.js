@@ -3,7 +3,8 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Carousel from './components/carousel';
 import Footer from './components/Footer';
-import Card from './components/CardsEmpresas';
+import CardEmpresa from './components/CardsEmpresas';
+import CardSobre from "./components/cards/sobre"
 
 function App() {
   return (
@@ -17,8 +18,13 @@ function App() {
       </React.Fragment>
 
       <React.Fragment>
-        <Card />
+        <CardSobre/>
       </React.Fragment>
+
+      <React.Fragment>
+        <CardEmpresa/>
+      </React.Fragment>
+
 
       <React.Fragment>
         <Footer />

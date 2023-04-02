@@ -209,8 +209,9 @@ header .nav-btn{
 }
 
 .textToptitleCard {
-  color: #730504;
+  color: var(--mainColor);
   text-align: left;
+  margin-bottom: 1em;
 }
 
 .ContentCard {

@@ -15,15 +15,19 @@ const Navbar = () => {
         <nav ref={navRef}>
 
           <button className="btn-link" onClick={showNavbar}>
-            <a href="/">Sobre</a>
+            <a href="#sobre">Sobre</a>
           </button>
 
           <button className="btn-link" onClick={showNavbar}>
-          <a href="/">Pontos Turisticos</a>
+          <a href="#pontosTuristicos">Pontos Turisticos</a>
           </button>
 
           <button className="btn-link" onClick={showNavbar}>
-          <a href="/">Gastronomia</a>
+          <a href="#pescaEsportiva">Pesca Esportiva</a>
+          </button>
+
+          <button className="btn-link" onClick={showNavbar}>
+          <a href="#gastronomia">Gastronomia</a>
           </button>
 
           <button className="btn-link" onClick={showNavbar}>

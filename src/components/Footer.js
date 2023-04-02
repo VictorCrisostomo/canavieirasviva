@@ -8,9 +8,10 @@ const Footer = () => {
         <div className="links">
             <div>
                 <h2>Canavieiras</h2>
-                <a href="www.google.com">Sobre</a>
-                <a href="www.google.com">Pontos Turisticos</a>
-                <a href="www.google.com">Gastronomia</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#pontosTuristicos">Pontos Turisticos</a>
+                <a href="#pescaEsportiva">Pesca Esportiva</a>
+                <a href="#gastronomia">Gastronomia</a>
                 <a href="www.google.com">Empresas Parceiras</a>
             </div>
         </div>

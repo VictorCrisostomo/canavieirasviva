@@ -2,7 +2,7 @@ import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 // import { Cross2Icon } from '@radix-ui/react-icons';
 
-const Contato = () => (
+const AlegraDeViver = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="Button" size="small">
@@ -12,10 +12,10 @@ const Contato = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent">
-        <Dialog.Title className="DialogTitle">Titulo</Dialog.Title>
+        <Dialog.Title className="DialogTitle">Rest</Dialog.Title>
         <hr/>
         <Dialog.Description className="DialogDescription">
-            Endereço
+            
         </Dialog.Description>
         <div className='FooterBtn' style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
@@ -29,4 +29,4 @@ const Contato = () => (
   </Dialog.Root>
 );
 
-export default Contato;
+export default AlegraDeViver;

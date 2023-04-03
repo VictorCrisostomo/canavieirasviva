@@ -2,7 +2,7 @@ import React from 'react';
 import * as Dialog from '@radix-ui/react-dialog';
 // import { Cross2Icon } from '@radix-ui/react-icons';
 
-const Contato = () => (
+const LojaDoReal = () => (
   <Dialog.Root>
     <Dialog.Trigger asChild>
       <button className="Button" size="small">
@@ -12,10 +12,10 @@ const Contato = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent">
-        <Dialog.Title className="DialogTitle">Titulo</Dialog.Title>
+        <Dialog.Title className="DialogTitle">LIDI Laboratório de Itabuna</Dialog.Title>
         <hr/>
         <Dialog.Description className="DialogDescription">
-            Endereço
+            Endereço: R. Firmino Alves, 268 - Centro, Itabuna - BA, 45600-908 | Fecha às 17:00 h
         </Dialog.Description>
         <div className='FooterBtn' style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
@@ -29,4 +29,4 @@ const Contato = () => (
   </Dialog.Root>
 );
 
-export default Contato;
+export default LojaDoReal;

@@ -31,7 +31,7 @@ const Navbar = () => {
           </button>
 
           <button className="btn-link" onClick={showNavbar}>
-          <a href="/">Empresas Parceiras</a>
+          <a href="#empresas">Empresas Parceiras</a>
           </button>
 
           <button className="nav-btn nav-close-btn" onClick={showNavbar}>

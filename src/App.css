@@ -271,8 +271,8 @@ header .nav-btn{
   scrollbar-width: none;
 }
 .film-bg{
-  width: 10em;
-  height: 10.2em;
+  width: 11em;
+  height: 13em;
   border-radius: 8px;
 
   background-color: var(--mainColorLight);

@@ -1,21 +1,27 @@
 import React, { useState, useEffect } from "react";
 import { GrFormPrevious, GrFormNext} from "react-icons/gr"
 
+import img1 from "../img/DJI_ok 0055_Easy-Resize.com.jpg"
+import img2 from "../img/DJI_ok 0056_Easy-Resize.com.jpg"
+import img3 from "../img/DJI_ok 0058_Easy-Resize.com.jpg"
+import img4 from "../img/DJI_ok 0061_Easy-Resize.com.jpg"
+import img5 from "../img/DJI_ok 0180_Easy-Resize.com.jpg"
+
 const images = [
     {
-      src: "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJhaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      src: `${img5}`,
       alt: "Slide 1"
     },
     {
-      src: "https://images.unsplash.com/photo-1519046904884-53103b34b206?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cHJhaWF8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      src: `${img4}`,
       alt: "Slide 2",
     },
     {
-      src: "https://images.unsplash.com/photo-1473116763249-2faaef81ccda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByYWlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      src: `${img3}`,
       alt: "Slide 3",
     },
     {
-      src: "https://plus.unsplash.com/premium_photo-1663946899699-e69774d0594a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHByYWlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      src: `${img2}`,
       alt: "Slide 4",
     },
     {
@@ -23,7 +29,15 @@ const images = [
       alt: "Slide 5",
     },
     {
-      src: "https://images.unsplash.com/photo-1473496169904-658ba7c44d8a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHByYWlhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+      src: "https://www.melhoresdestinos.com.br/wp-content/uploads/2021/11/makaira-beach-resort-canavieiras-bahia-capa-2021.jpg",
+      alt: "Slide 6",
+    },
+    {
+      src: "https://turismo.bahia.ws/wp-content/uploads/2012/11/Canavieiras-na-Bahia-2.jpg",
+      alt: "Slide 6",
+    },
+    {
+      src: `${img1}`,
       alt: "Slide 6",
     },
   ];

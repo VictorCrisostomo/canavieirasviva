@@ -1,6 +1,21 @@
 import React from 'react'
 import Contato from "./modals/contato"
 
+import AlegriaDeViver1 from "./modals/AlegriadDeViver"
+import BahiadoMizil from "./modals/BahiaDoMizil"
+import Bambuzada from "./modals/Bambusada"
+import Casajardim from "./modals/CasaJardim"
+import Comandante from "./modals/ComandanteDasIlhas"
+import CostadoSol from "./modals/CostaDoSol"
+import HotelPatipe from "./modals/HotelPatipe"
+import Kigata from "./modals/Kigata"
+import LojaDoReal from "./modals/LojaDoReal"
+import Makaira from "./modals/Makaira"
+import Oasis from "./modals/Oasis"
+import OldSchool from "./modals/OldSchool"
+import PortoDosMilagres from "./modals/PortoDosMilagres"
+import StellaMaris from "./modals/StellaMaris"
+
 import patipe from "../img/patipe.png"
 import oasis from "../img/oasis.png"
 import stellamaris from "../img/stellamaris.png"
@@ -8,10 +23,14 @@ import lojadoreal from "../img/lojadoreal.jpg"
 import alegriadeviver from "../img/alegriadeviver.png"
 import costadosol from "../img/CostadoSol.png"
 import BahiaDoMizil from "../img/bahiadomizil.png"
-import Makaira from "../img/makaira.png"
-import Bambusada from "../img/bambusada.jpg"
-import CasaJardim from "../img/CasaJardim.png"
-import Kigata from "../img/kigata.jpg"
+import makaira from "../img/makaira.png"
+import bambusada from "../img/bambusada.jpg"
+import casaJardim from "../img/CasaJardim.png"
+import kigata from "../img/kigata.jpg"
+import PortodosMilagres from "../img/portodosmilagres.png"
+import tijolinho from "../img/tijolinho.png"
+import oldSchool from "../img/oldschool.png"
+
 
 
 const CardsFilmes = () => {
@@ -28,7 +47,7 @@ const CardsFilmes = () => {
                             <img style={{width: '8em'}} src={patipe} alt="" />
                         </div>
                         <div className="img-logo">
-                        <Contato />
+                        <HotelPatipe/>
                         </div>
                     </div>
                 </article>
@@ -39,7 +58,7 @@ const CardsFilmes = () => {
                             <img style={{width: '6em'}} src={oasis} alt="" />
                         </div>
                         <div className="img-logo">
-                        <Contato />
+                        <Oasis />
                         </div>
                     </div>
                 </article>
@@ -50,7 +69,7 @@ const CardsFilmes = () => {
                             <img style={{width: '5em'}} src={stellamaris} alt="" /> 
                         </div>
                         <div className="img-logo">
-                        <Contato />
+                        <StellaMaris />
                         </div>
                     </div>
                 </article>
@@ -61,7 +80,7 @@ const CardsFilmes = () => {
                             <img style={{width: '8.5em'}} src={lojadoreal} alt="" /> 
                         </div>
                         <div className="img-logo">
-                        <Contato />
+                        <LojaDoReal />
                         </div>
                     </div>
                 </article>
@@ -72,70 +91,84 @@ const CardsFilmes = () => {
                         <img style={{width: '7em'}} src={alegriadeviver} alt="" /> 
                         </div>
                         <div className="img-logo">
-                        <Contato />
+                        <AlegriaDeViver1/>
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Pousada Costa do Sol</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '5.7em'}} src={costadosol} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <CostadoSol />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Bahiadomizil</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '9.5em'}} src={BahiaDoMizil} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <BahiadoMizil />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Makaira</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '5em'}} src={makaira} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <Makaira />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Bambusada</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '10.5em'}} src={bambusada} alt="" />
+                        </div>
+                        <div className="img-logo">
+                        <Bambuzada />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Casa Jardim</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '10em'}} src={casaJardim} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <Casajardim />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Kigata</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '9em'}} src={kigata} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <Kigata />
                         </div>
                     </div>
                 </article>
 
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Porto dos milagres</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '5em'}} src={PortodosMilagres} alt="" />
+                        </div>
+                        <div className="img-logo">
+                        <PortoDosMilagres />
                         </div>
                     </div>
                 </article>
@@ -143,13 +176,15 @@ const CardsFilmes = () => {
                     <div className="film-bg">
                         <div className="img-logo">Comandante das Ilhas</div>
                         <div className="img-logo">
-                        <Contato />
+                        <Comandante />
                         </div>
                     </div>
                 </article>
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Cabana Tijolinho</div>
+                        <div className="img-logo">
+                        <img style={{width: '7em'}} src={tijolinho} alt="" />    
+                        </div>
                         <div className="img-logo">
                         <Contato />
                         </div>
@@ -157,9 +192,11 @@ const CardsFilmes = () => {
                 </article>
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Old School</div>
                         <div className="img-logo">
-                        <Contato />
+                        <img style={{width: '5em'}} src={oldSchool} alt="" />    
+                        </div>
+                        <div className="img-logo">
+                        <OldSchool />
                         </div>
                     </div>
                 </article>

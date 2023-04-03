@@ -34,11 +34,11 @@ const images = [
     },
     {
       src: "https://turismo.bahia.ws/wp-content/uploads/2012/11/Canavieiras-na-Bahia-2.jpg",
-      alt: "Slide 6",
+      alt: "Slide 7",
     },
     {
       src: `${img1}`,
-      alt: "Slide 6",
+      alt: "Slide 8",
     },
   ];
 

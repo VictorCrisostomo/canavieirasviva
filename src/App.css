@@ -15,7 +15,7 @@
   --mainColorLight: #EEEEEE;
   --mainHoverColorLight: #B3B3B3;
 
-  --secondaryColor: #FD7014;
+  --secondaryColor: #3AB54A;
   --secondaryHoverColor: #FE9352;
 
   --colorBlue: #5F85DA;
@@ -34,7 +34,7 @@ body {
   background-color: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: var(--secondaryHoverColor);
+  background-color: var(--secondaryColor);
   border-radius: 16px;
 }
 
@@ -337,6 +337,23 @@ input {
   line-height: 1.5;
 }
 
+.Button-green{
+    background-color: var(--secondaryColor);
+    width: 12.5em;
+    color: #F6F6F7;
+    box-shadow: 0 .5em .5em 0 rgba(0, 0, 0, 0.2);
+
+    border: none;
+    border-radius: 1.5em;
+    padding: .7em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 9.5pt;
+}
+
 .FooterBtn  a{
     text-decoration: none;
 }
@@ -381,14 +398,14 @@ input {
 
 /* footer */
 .container-footer {
-  background-color: var(--mainColor);
+  background-color: var(--secondaryColor);
 }
 footer {
   display: flex;
   align-items: flex-start;
   gap: 25px;
   margin: 0 30px;
-  color: #a2b5cd;
+  color: var(--mainColorLight);
 }
 
 footer.top {
@@ -412,7 +429,7 @@ footer.botton {
 
 footer .links > div a {
   text-decoration: none;
-  color: #B3B3B3;
+  color: var(--mainColorLight);
 }
 
 footer .links > div {
@@ -425,7 +442,7 @@ footer h2 {
   margin: 0;
   font-size: 16px;
   font-weight: 500;
-  color: #f7f7f7;
+  color: var(--mainColorLight);
 }
 
 footer .legal {
@@ -435,7 +452,7 @@ footer .legal {
 footer .legal > a {
   margin: 0 4px;
   text-decoration: none;
-  color: #B3B3B3;
+  color: var(--mainColorLight);
 }
 
 footer .legal > span {

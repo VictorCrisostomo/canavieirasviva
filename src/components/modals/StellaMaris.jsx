@@ -12,15 +12,20 @@ const StellaMaris = () => (
     <Dialog.Portal>
       <Dialog.Overlay className="DialogOverlay" />
       <Dialog.Content className="DialogContent">
-        <Dialog.Title className="DialogTitle">LIDI Laboratório de Itabuna</Dialog.Title>
+        <Dialog.Title className="DialogTitle">Pousada Stella Maris</Dialog.Title>
         <hr/>
         <Dialog.Description className="DialogDescription">
-            Endereço: R. Firmino Alves, 268 - Centro, Itabuna - BA, 45600-908 | Fecha às 17:00 h
+            <p>| Praia da Costa Norte, Ilha de Atalaia, Canavieiras, Bahia.</p>
+            <br />
+            <a href="www.stellamaris.tur.br">www.stellamaris.tur.br</a>
+            <br />
+            <a href="https://www.instagram.com/pousadastellamaris/">| @pousadastellamaris</a>
+            <br />
         </Dialog.Description>
         <div className='FooterBtn' style={{ display: 'flex', marginTop: 25, justifyContent: 'flex-end' }}>
           <Dialog.Close asChild>
-           <a href="https://www.google.com/maps/dir//LIDI-Laborat%C3%B3rio+de+Investiga%C3%A7%C3%A3o+e+Diagn%C3%B3sticos+de+Itabuna+-+R.+Firmino+Alves,+268+-+Centro,+Itabuna+-+BA,+45600-908/@-14.79565,-39.2941385,11z/data=!4m8!4m7!1m0!1m5!1m1!1s0x739aa5fea09e3a9:0xf1f7be6fa833ee4c!2m2!1d-39.2743979!2d-14.791901">
-            <button className="Button green">Abrir no mapa</button>
+           <a href="https://wa.me/5573991730979">
+            <button className="Button-green">Conversar no WhatsApp</button>
             </a> 
           </Dialog.Close>
         </div>

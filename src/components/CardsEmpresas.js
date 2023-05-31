@@ -174,7 +174,7 @@ const CardsFilmes = () => {
                 </article>
                 <article className='card'>
                     <div className="film-bg">
-                        <div className="img-logo">Comandante das Ilhas</div>
+                        <div>Comandante das Ilhas</div>
                         <div className="img-logo">
                         <Comandante />
                         </div>
